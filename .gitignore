@@ -1,0 +1,37 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secrets — never commit tokens
+.env
+*.env
+*token*
+hf_*
+!requirements.txt
+
+# Model / data artifacts produced by the notebook
+cascadeguard/
+*.json
+!package.json
+*.pt
+*.bin
+*.safetensors
+cache/
+.cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Docker
+*.log
